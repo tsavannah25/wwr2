@@ -1,0 +1,179 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rock+Salt&display=swap');
+
+/*Jaeden wuz here */
+:root {
+  --primary-color: #1e3f66;
+  --secondary-color: #006494;
+  --accent1-color: #2C6E49;
+  --accent2-color: #F1F1F1;
+  --neutral-color: #3B3B3B;
+
+  --heading-font: 'Rock Salt', 'IM Fell French Canon', cursive;
+  --paragraph-font: 'Raleway', 'Lato', Helvetica, sans-serif;
+
+  --headline-color-on-white: #a8c0d0;
+  --headline-color-on-color: rgb(168, 156, 222);
+  --paragraph-color-on-white: #396E94;
+  --paragraph-color-on-color: white;
+  --paragraph-background-color: #396E94;
+  --nav-link-color: #fcfbfb;
+  --nav-background-color: #D4AC0D;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #396E94;
+}
+
+/* Reset styles */
+body {
+  background-color: #fcfbfb;
+  font-family: var(--paragraph-font);
+  font-size: 22px;
+  margin: 0 auto;
+  padding: 4em;
+  max-width: 960px;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+  margin: 0;
+  text-align: center;
+}
+
+/* General content styling */
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color-on-white);
+  padding: 1em;
+}
+
+p.colored {
+  background-color: var(--paragraph-background-color);
+  color: var(--paragraph-color-on-color);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+hr {
+  height: 3px;
+  margin: 35px 0;
+  background: var(--accent1-color);
+}
+
+/* General content styling */
+header {
+  padding: 1em;
+  background-color: var(--paragraph-background-color);
+  color: var(--headline-color-on-color);
+  text-align: center;
+  background-color: #1E3F66;
+  color: white;
+  padding: 1em;
+}
+
+/* Navigation */
+nav {
+  background-color: var(--nav-background-color);
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1em;
+}
+
+nav {
+  background-color: #2D936C;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 1em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #EEE5E9;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(to bottom, #dfe8e7, #e0e6e9);
+  color: #1E3F66;
+}
+
+header {
+  background-color: #1E3F66;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 2em;
+  border-bottom: 2px solid #ccc;
+}
+
+.logo {
+  height: 50px;
+}
+
+nav a {
+  margin: 0 1em;
+  color: #1E3F66;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.rapid-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1.5em;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Site Map */
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.colors th {
+  background-color: #999;
+}
+
+.colors td {
+  width: 20%;
+  height: 3em;
+}
+
+.primary { background-color: var(--primary-color); }
+.secondary { background-color: var(--secondary-color); }
+.accent1 { background-color: var(--accent1-color); }
+.accent2 { background-color: var(--accent2-color); }
+.neutral  { background-color: var(--neutral-color); }
