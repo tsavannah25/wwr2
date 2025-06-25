@@ -1,0 +1,65 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #B8B8F3;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}  
+
+nav {
+  background-color: #00A9A5
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+nav button {
+  background-color: #55286F
+  color: white;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #006494; 
+}
+
+h1 {
+  margin: 1rem 0;
+  font-size: 2rem;
+  color: #55286F;
+}
+
+.photo-container img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  margin-top: 1rem;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.box {
+  background-color: #CEB992
+  padding: 1rem;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
